@@ -44,7 +44,6 @@ footer {
             gap: 20px;
             padding: 48px;
             min-height: 100vh;
-            grid-template-rows: auto 1fr 1fr auto;
             grid-template-areas:    'header'
                                     'horiz_banner'
                                     'main'
@@ -154,7 +153,7 @@ footer {
 
 .banner_top img {
     width: 100%;
-    max-height: 100px;
+    
     object-fit: cover;
 }
 
